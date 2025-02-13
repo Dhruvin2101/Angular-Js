@@ -16,6 +16,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: row;
 }
 #box-main {
   height: 400px;
@@ -27,6 +28,7 @@ body {
   align-items: center;
   flex-direction: column;
   border-radius: 15px;
+  margin: 0px 55px;
 }
 #box-main p {
   text-align: center;
@@ -46,7 +48,7 @@ body {
 }
 #box-main button {
   height: 50px;
-  width: 80px;
+  width: 95px;
   border-radius: 20px;
   border-style: none;
   background-color: #ebd4cb;
